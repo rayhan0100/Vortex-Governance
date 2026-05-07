@@ -1,5 +1,4 @@
-# Vortex-Governance
-"Vortex", a decentralized "Snapshot" style voting platform.
+
 # 🌪️ Vortex Governance
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
