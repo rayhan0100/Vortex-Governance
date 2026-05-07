@@ -41,7 +41,7 @@ The platform connects directly to the Ethereum blockchain to verify your governa
 
 1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com/yourusername/vortex-gov.git](https://github.com/yourusername/vortex-gov.git)
+    git clone [https://github.com/rayhan0100/vortex-gov.git](https://github.com/rayhan0100/vortex-gov.git)
     ```
 
 2.  **Configure the Contract**
