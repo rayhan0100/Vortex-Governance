@@ -1,0 +1,84 @@
+:root {
+    --bg: #e0e5ec;
+    --shadow-dark: #a3b1c6;
+    --shadow-light: #ffffff;
+    --accent: #448aff;
+}
+
+body {
+    background-color: var(--bg);
+    color: #444;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.neu-card {
+    background: var(--bg);
+    border-radius: 20px;
+    box-shadow: 9px 9px 16px var(--shadow-dark), 
+               -9px -9px 16px var(--shadow-light);
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.neu-btn {
+    border: none;
+    background: var(--bg);
+    padding: 12px 25px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px var(--shadow-dark), 
+               -5px -5px 10px var(--shadow-light);
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.neu-btn:active {
+    box-shadow: inset 5px 5px 10px var(--shadow-dark), 
+                inset -5px -5px 10px var(--shadow-light);
+}
+
+.vote-bar {
+    height: 12px;
+    background: var(--bg);
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 6px var(--shadow-dark), 
+                inset -3px -3px 6px var(--shadow-light);
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    background: var(--accent);
+    box-shadow: 0 0 10px var(--accent);
+}
+
+.actions {
+    display: flex;
+    gap: 15px;
+}
+
+.neu-btn-press {
+    flex: 1;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    background: var(--bg);
+    box-shadow: 4px 4px 8px var(--shadow-dark), 
+               -4px -4px 8px var(--shadow-light);
+    cursor: pointer;
+}
