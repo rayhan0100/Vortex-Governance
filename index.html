@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vortex | Governance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-area">
+                <div class="logo-icon"></div>
+                <h1>VORTEX</h1>
+            </div>
+            <button id="connect-btn" class="neu-btn">Connect Wallet</button>
+        </header>
+
+        <section class="stats-row">
+            <div class="neu-card stat">
+                <span>Power</span>
+                <h2 id="user-power">0.00 VTX</h2>
+            </div>
+        </section>
+
+        <section class="proposals">
+            <h3>Active Proposals</h3>
+            
+            <div class="neu-card proposal">
+                <p>#042: Increase Liquidity Provider rewards by 15%</p>
+                <div class="vote-bar">
+                    <div class="progress" style="width: 65%;"></div>
+                </div>
+                <div class="actions">
+                    <button class="neu-btn-press" onclick="castVote(true)">For</button>
+                    <button class="neu-btn-press" onclick="castVote(false)">Against</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
